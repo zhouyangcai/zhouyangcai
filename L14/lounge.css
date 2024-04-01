@@ -1,0 +1,18 @@
+html {
+  font-size: 16px;  
+}
+h1 {
+  font-size: 5rem;
+}
+p {
+  font-size: 1rem;
+}
+em {
+  font-family: "Cascadia Mono"; /* 注意双引号这个细节，告诉计算机这个在一起 */
+}
+body{
+background-color: #a91847;
+  }
+p {
+  font-style: italic;
+}
