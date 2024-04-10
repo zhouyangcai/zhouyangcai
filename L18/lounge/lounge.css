@@ -35,18 +35,33 @@ border-width: thin;
 border-style: solid;
 border-color: #007e7e;
 width: 200px;
-padding-right: 20px;
-padding-bottom: 20px;
-padding-left: 20px;
+padding:0px 20px 20px 20px;
 margin-left: 20px;
 background-color: url(./images/cocktail.gif);
 background-repeat: repeat-x;
 text-align: center;
 line-height: 1;
 }
-.elixirs h2 {
+.elixirs>h2 {
 color: black;
 }
-.elixirs h1 {
+.elixirs>h1 {
+color: #d12c47;
+}
+.cd {
+    font-style: italic;
+
+}
+.artist {
+font-weight: bold;
+width: px;
+}
+.elixirs a:link {
+color: black;
+}
+.elixirs a:visited {
+color: #007e7e;
+}
+.elixirs a:hover {
 color: #d12c47;
 }
