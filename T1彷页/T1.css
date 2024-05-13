@@ -1,0 +1,22 @@
+.body{
+  color: gray;
+
+}
+
+.left.right.TopNews{
+  background-color: gray;
+  border-width: thin;
+}
+
+.left{
+  float:left
+}
+
+.right{
+  float: right;
+}
+
+.TopNews{
+  font-family: Arial; 
+  font-size: ;
+}
