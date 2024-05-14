@@ -1,8 +1,13 @@
-.body{
-  color: gray;
+body{
+  background-color: #3b3b3b;
 
 }
 
+.both{
+margin-left: 110px;
+margin-right: 110px;
+
+}
 .left.right.TopNews{
   background-color: gray;
   border-width: thin;
@@ -10,6 +15,7 @@
 
 .left{
   float:left
+  
 }
 
 .right{
@@ -18,5 +24,31 @@
 
 .TopNews{
   font-family: Arial; 
-  font-size: ;
+  font-size: 50px;
+  color: white;
+}
+.a{
+  font-family: alternate-gothic-no-3-d;
+  display: inline;
+  font-size: 25px;
+  line-height: 32px;
+  width: 326px;
+  height: 96px;
+  margin:15px 22px 15px 22px 
+  
+}
+.b{
+  display: inline;
+  font-size: 14px;
+  line-height: 17px;
+  width: 326px;
+  height: 68px;
+  margin:15px 22px 15px 22px 
+}
+.c{
+  color: white;
+  float: right;
+  width: 370px;
+  height: 226px;
+  background-color: rgb(26, 25, 25);
 }
