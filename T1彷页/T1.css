@@ -4,8 +4,8 @@ body{
 }
 
 .both{
-margin-left: 110px;
-margin-right: 110px;
+  margin-left: 100px;
+	margin-right: 100px;
 
 }
 .left.right.TopNews{
@@ -14,7 +14,7 @@ margin-right: 110px;
 }
 
 .left{
-  float:left
+  float:left;
   
 }
 
@@ -29,21 +29,21 @@ margin-right: 110px;
 }
 .a{
   font-family: alternate-gothic-no-3-d;
-  display: inline;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 32px;
   width: 326px;
   height: 96px;
-  margin:15px 22px 15px 22px 
-  
+  margin:15px 22px 15px 22px; 
+  line-height: 32px;
+
 }
 .b{
-  display: inline;
   font-size: 14px;
   line-height: 17px;
   width: 326px;
   height: 68px;
-  margin:15px 22px 15px 22px 
+  margin:15px 22px 15px 22px; 
+  line-height: 17px;
 }
 .c{
   color: white;
@@ -51,4 +51,17 @@ margin-right: 110px;
   width: 370px;
   height: 226px;
   background-color: rgb(26, 25, 25);
+}
+a:link {
+  color:white;
+}
+
+
+a:visited {
+  color:white;
+}
+
+
+a:hover {
+  color:white;
 }
