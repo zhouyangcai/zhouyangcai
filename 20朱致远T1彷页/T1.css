@@ -1,15 +1,13 @@
 body{
-  background-color: #3b3b3b;
+  background-color: #252525;
 
 }
 
 .both{
-  margin-left: 100px;
-	margin-right: 100px;
-
+  margin:45px 100px 45px 100px ;
 }
 .left.right.TopNews{
-  background-color: gray;
+  background-color: rgb(54, 54, 54);
   border-width: thin;
 }
 .lefta,.left{
@@ -27,7 +25,7 @@ body{
 
 .TopNews{
   font-family: Arial; 
-  font-size: 50px;
+  font-size: 65px;
   color: white;
 }
 .a{
@@ -66,6 +64,5 @@ a:visited {
 
 
 a:hover {
-  color:black;
-
+  color:white;
 }
