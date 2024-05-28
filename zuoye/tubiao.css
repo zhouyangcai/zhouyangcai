@@ -1,0 +1,183 @@
+body {
+    background-color: black;
+}
+
+.tubiao {
+    display: flex;
+    margin-left: 620px;
+    /* margin-top: 100px; */
+}
+
+.facebook{
+    margin-left: 25px;
+}
+
+.youtube{
+    margin-left: 25px;
+}
+
+.instagram{
+    margin-left: 25px;
+}
+
+.자산{
+    margin-left: 25px;
+}
+
+.weibo{
+    margin-left: 25px;
+}
+
+.tiktok{
+    margin-left: 25px;
+}
+
+.all {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.all-one {
+    display: flex;
+    margin-left: 630px;
+}
+
+.two{
+    margin-left: 25px;
+}
+
+.all-two{
+    display: flex;
+    margin-left: 520px;
+}
+
+.four{
+    margin-left: 40px;
+}
+
+.five{
+    margin-left: 30px;
+}
+
+.six{
+    margin-left: 30px;
+}
+
+.seven{
+    margin-left: 30px;
+}
+
+.eight{
+    margin-left: 35px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+.twitter {
+    overflow: hidden;
+}
+
+.twitter:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+.facebook {
+    overflow: hidden;
+}
+
+.facebook:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+.youtube {
+    overflow: hidden;
+}
+
+.youtube:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+.instagram {
+    overflow: hidden;
+}
+
+.instagram:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+.자산 {
+    overflow: hidden;
+}
+
+.자산:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+.weibo {
+    overflow: hidden;
+}
+
+.weibo:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+.tiktok {
+    overflow: hidden;
+}
+
+.tiktok:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+
+
+.bott{
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+} */
+/* .quan{
+    position: relative;
+    display: inline-block;
+}
+
+img:nth-child(tupian){
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+img:nth-child(tubiao):hover + img:nth-child(tupian){
+    opacity: 0.5;
+} */
+.ppp{
+    position:absolute;
+    margin-left: 260px;
+}
