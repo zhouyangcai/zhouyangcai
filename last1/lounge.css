@@ -1,0 +1,164 @@
+body{
+    background-color: #272626;
+}
+
+ul li {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin-top: 0px;
+    text-decoration: none;
+    display: inline;
+	list-style-type: none;
+    list-style: none;
+}
+
+ul li a:hover{
+	color: #f70909;
+	/* border-bottom: none;
+	font-weight: bold; */
+}
+
+ul li.selected {
+	background-color: #000000;
+}
+
+ul{
+    width: 1545px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 0px;
+    background-color: rgb(6, 7, 7);
+}/* 对导航栏的整体样式进行设置 */
+
+.cont{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0px;
+    text-decoration: none;
+}/* 设置a标签的样式 */
+
+.nav1 {
+    position: relative;/* 设置相对定位 */
+    display: inline-block;/* 让元素具有块级元素和行内元素的特性,即将块级元素转化为内联元素 */
+}
+
+.nav2 {
+    display: none;/* 将某元素隐藏起来 */
+    position: absolute;
+    background-color: #030303;
+    height: 150px;
+    min-width: 235px;/* 最小宽度 */
+    z-index: 999;
+}
+
+.chy {
+    float:right;
+    display: flex;
+}
+
+.nav2 a {
+    color: rgb(255, 255, 255);
+    /* display: block;将a标签设置为块级标签 */
+}
+
+.nav2 a:hover {
+    color: #ff0000;
+}/* 鼠标悬浮时的颜色 */
+
+.nav1:hover .nav2 {
+    display: block;
+}/* 鼠标悬浮在元素上时,变为块级标签 */
+
+.nav3 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.nav1 a:hover{
+    color: #ff0000;
+}
+
+h2 {
+    color:#fafafa;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+.pi {
+    margin-left: 100px;
+    position: absolute;
+}
+
+.pitwo {
+    float: right;
+    margin-right: 80px;
+    margin-left: 770px;
+    position: absolute;
+}  
+
+.biaotitupian{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+b {
+    margin-top: 20px;
+}
+
+.lizhaoyang:hover{
+    color:#ff0000;
+}
+
+.h4 {
+    position: absolute;
+    font-family: Verdana;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 120px;  
+    margin-top: 250px;
+    padding: 25px 241px 31px 0px;
+    background-color: hsl(0deg 0% 0%/51% );
+}
+
+.h5 {
+    position: absolute;
+    font-family: Verdana;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    margin-right: 80px;
+    margin-left: 790px;
+    margin-top: 250px;
+    padding: 25px 156px 28px 0px;
+    background-color: hsl(0deg 0% 0%/51% );
+}
+
+.chevron{
+    position: relative;
+    display: inline-block;
+    width: .4em;
+    height: .4em;
+    border-top: 1px solid currentColor;
+    border-right: 1px solid currentColor;
+    vertical-align: middle;
+    margin-top: -.14em;
+}
+
+.chevron {
+    margin-left: 2px;
+    margin-bottom: 1px;
+}
+
+.chevron--down {
+    transform: rotate(135deg);
+}
+
+.nav8{
+    display: block;
+}
+
+
