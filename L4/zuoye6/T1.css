@@ -1,0 +1,648 @@
+body{
+    background-color: #252525;
+    margin: 0px;padding: 0px;
+    overflow-x: hidden;
+}
+
+.hx{
+    margin:0;padding:0;
+}
+
+ul li {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin-top: 0px;
+    text-decoration: none;
+    display: inline;
+	list-style-type: none;
+    list-style: none;
+}
+
+ul li a:hover{
+	color: #f70909;
+	/* border-bottom: none;
+	font-weight: bold; */
+}
+
+ul li.selected {
+	background-color: #000000;
+}
+
+ul{
+    width: 1550px;
+    height: 75px;
+    line-height: 75px;
+    margin-top: 0px;
+    background-color: rgb(6, 7, 7);
+}/* 对导航栏的整体样式进行设置 */
+
+nav a{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0px;
+    text-decoration: none;
+}/* 设置a标签的样式 */
+
+.nav1 {
+    position: relative;/* 设置相对定位 */
+    display: inline-block;/* 让元素具有块级元素和行内元素的特性,即将块级元素转化为内联元素 */
+}
+
+.nav2 {
+    display: none;/* 将某元素隐藏起来 */
+    position: absolute;
+    background-color: #030303;
+    /* height: 150px; */
+    min-width: 235px;/* 最小宽度 */
+    backface-visibility: hidden;
+    z-index: 999;
+}
+
+.chy {
+    float:right;
+    display: flex;
+}
+
+.nav2 a {
+    color: rgb(255, 255, 255);
+    /* display: block;将a标签设置为块级标签 */
+    display: block;
+    padding:0px;
+}
+
+.nav2 a:hover {
+    color: #ff0000;
+}/* 鼠标悬浮时的颜色 */
+
+.nav1:hover .nav2 {
+    display: block;
+}/* 鼠标悬浮在元素上时,变为块级标签 */
+
+.nav3 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.nav1 a:hover{
+    color: #ff0000;
+}
+
+h2 {
+    color:#fafafa;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+.pi {
+    margin-left: 100px;
+    position: absolute;
+}
+
+.pitwo {
+    float: right;
+    margin-right: 0px;
+    margin-left: 795px;
+    position: absolute;
+}  
+
+.biaotitupian{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+b{
+    margin-top: 20px;
+}
+
+.lizhaoyang:hover{
+    color:#ff0000;
+}
+
+.h4 {
+    position: absolute;
+    font-family: Verdana;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 100px;  
+    margin-top: 266px;
+    padding: 25px 291px 25px 10px;
+    background-color: hsl(0deg 0% 0%/51% );
+}
+
+.h5 {
+    position: absolute;
+    font-family: Verdana;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 795px;
+    margin-top: 266px;
+    padding: 25px 206px 22px 10px;
+    background-color: hsl(0deg 0% 0%/51% );
+}
+
+.chevron{
+    position: relative;
+    display: inline-block;
+    width: .4em;
+    height: .4em;
+    border-top: 1px solid currentColor;
+    border-right: 1px solid currentColor;
+    vertical-align: middle;
+    margin-top: -.14em;
+}
+
+.chevron {
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.chevron--down {
+    transform: rotate(135deg);
+}
+
+span {
+	padding-bottom: 1px;
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.diqiu{
+    position: absolute;
+    top:4px;
+}
+
+.na1{
+    color: rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    z-index: 999;
+    left: 20px;
+    top: 30px;
+    height: 50px;
+    padding: 0px;
+
+} 
+
+.nav1:hover .na1{
+    display: block;
+}
+
+.na2{
+    color: rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    z-index: 998;
+    left: 10px;
+    top: 60px;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 60px;
+    padding: 0px 200px 100px 10px;
+}
+
+.nav1:hover .na2{
+    display: block;
+}
+
+.na3{
+    color: rgb(255, 255, 255);
+    display: none;
+    position: absolute;
+    z-index: 998;
+    left: 20px;
+    top: 90px;
+    padding: 0px;
+}
+
+.nav1:hover .na3{
+    display: block;
+}
+
+.na4{
+    color: rgb(255, 255, 255);
+    display: none;
+    position: absolute;
+    z-index: 998;
+    left: 20px;
+    top: 120px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.nav1:hover .na4{
+    display: block;
+}
+
+.na5{
+    color: rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    z-index: 998;
+    left: 20px;
+    top: 150px;
+    padding: 0px;
+}
+
+.nav1:hover .na5{
+    display: block;
+}
+
+.na6{
+    color: rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    z-index: 999;
+    left: 20px;
+    top: 30px;
+    height: 50px;
+    padding: 0px;
+}
+
+.nav1:hover .na6{
+    display: block;
+}
+
+.na7{
+    color: rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    z-index: 998;
+    left: 10px;
+    top: 60px;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 100px;
+    padding: 0px 130px 60px 10px;
+}
+
+.nav1:hover .na7{
+    display: block;
+}
+
+.na8{
+    color: rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    z-index: 998;
+    left: 20px;
+    top: 90px;
+    padding: 0px;
+}
+
+.nav1:hover .na8{
+    display: block;
+}
+
+.na9{
+    color: rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    z-index: 999;
+    left: 20px;
+    top: 30px;
+    height: 50px;
+    padding: 0px;
+}
+
+.nav1:hover .na9{
+    display: block;
+}
+
+.na10{
+    color: rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    z-index: 998;
+    left: 10px;
+    top: 60px;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 100px;
+    padding: 0px 130px 60px 10px;
+}
+
+.nav1:hover .na10{
+    display: block;
+}
+
+.na11{
+    color: rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    z-index: 998;
+    left: 20px;
+    top: 90px;
+    padding: 0px;
+}
+
+.nav1:hover .na11{
+    display: block;
+}
+
+.na12{
+    color: rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    z-index: 999;
+    right: 20px;
+    top: 30px;
+    height: 50px;
+    width: 80px;
+    padding: 0px;
+}
+
+.nav1:hover .na12{
+    display: block;
+}
+
+.na13{
+    color: rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    z-index: 998;
+    right: 10px;
+    top: 60px;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 90px;
+    padding: 0px 0px 60px 10px;
+}
+
+.nav1:hover .na13{
+    display: block;
+}
+
+.na14{
+    color: rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    z-index: 998;
+    left: 2px;
+    top: 90px;
+    padding: 0px;
+}
+
+.nav1:hover .na14{
+    display: block;
+}
+
+.both{
+    margin:350px 100px 45px 100px ;
+}
+.left.right.TopNews{
+    background-color: rgb(54, 54, 54);
+    border-width: thin;
+}
+.lefta,.left{
+    float:left;
+}
+
+.righta,.right{
+    float: right;
+}
+
+.left,.right{
+    margin-top: 32px;
+    
+}
+
+.TopNews{
+    font-family: Arial; 
+    font-size: 65px;
+    color: white;
+}
+.a{
+    font-family: 'zhouyangcai';
+    font-size: 27px;
+    line-height: 32px;
+    width: 326px;
+    height: 96px;
+    padding-bottom: 0px;
+    margin:15px 22px 15px 22px; 
+    line-height: 32px;
+}
+.b{
+    font-size: 14.5px;
+    line-height: 17px;
+    width: 326px;
+    height: 68px;
+    margin:15px 22px 15px 22px; 
+    line-height: 17px;
+    font-family: 'zhouyangcai1';
+}
+.c{
+    color: white;
+    float: right;
+    width: 370px;
+    height: 226px;
+    background-color: rgb(20, 20, 20); 
+}
+a:link {
+    color:white;
+}
+
+
+a:visited {
+    color:white;
+}
+
+
+a:hover {
+    color:white;
+}
+
+span {
+    padding-bottom: 1px;
+    border-bottom: 0.3px solid rgb(255, 255, 255);
+}
+
+.li {
+    margin-top: 4200px;
+    background-color:black;
+    padding:  0px 0px 10px 0px;
+}
+
+.tubiao {
+    background-color: black;
+    display: flex;
+    margin-left: 610px;
+    margin-top: 60px;
+}
+
+.facebook{
+    margin-left: 30px;
+}
+
+.youtube{
+    margin-left: 30px;
+}
+
+.instagram{
+    margin-left: 30px;
+}
+
+.자산{
+    margin-left: 30px;
+}
+
+.weibo{
+    margin-left: 30px;
+}
+
+.tiktok{
+    margin-left: 30px;
+}
+
+.all {
+    background-color:  black;
+    margin-top: 30px;
+    /* color: #ffffff;
+    text-decoration: underline;  */
+}
+
+.all-one {
+    display: flex;
+    margin-left: 615px;
+}
+
+.two{
+    margin-left: 25px;
+}
+
+.all-two{
+    display: flex;
+    margin-left: 435px;
+}
+
+.four{
+    margin-left: 75px;
+}
+
+.five{
+    margin-left: 75px;
+}
+
+.six{
+    margin-left: 70px;
+}
+
+.seven{
+    margin-left: 65px;
+}
+
+.eight{
+    margin-left: 55px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.linkeight:hover {
+    color: red;
+}
+
+.twitter {
+    overflow: hidden;
+}
+
+.twitter:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+.facebook {
+    overflow: hidden;
+}
+
+.facebook:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+.youtube {
+    overflow: hidden;
+}
+
+.youtube:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+.instagram {
+    overflow: hidden;
+}
+
+.instagram:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+.자산 {
+    overflow: hidden;
+}
+
+.자산:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+.weibo {
+    overflow: hidden;
+}
+
+.weibo:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+.tiktok {
+    overflow: hidden;
+}
+
+.tiktok:hover img{
+    transform: translateY(-50px);
+    filter: drop-shadow(red 0 50px);
+}
+
+.bott{
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 60px;
+}
+
+.ppp{
+    position:absolute; 
+    left: 180px;
+    top: 4820px;
+    /* z-index: 9999; */
+}
+@font-face {
+    font-family:'zhouyangcai';
+    src: url(l);
+}
+@font-face {
+    font-family:'zhouyangcai1';
+    src: url(aa);
+}
